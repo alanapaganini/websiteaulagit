@@ -1,0 +1,150 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+border:0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+line-height: 24px;
+font:inherit;
+margin:0;
+padding:0;
+vertical-align:baseline;
+box-sizing: border-box;
+}
+html{scroll-behavior:smooth;}
+body{
+background:#fff;
+color:#4d4d4d;
+}
+ol,
+ul,
+li{list-style:none;}
+strong{font-family:Arial, Helvetica, sans-serif;}
+table{
+border-collapse:collapse;
+border-spacing:0;
+width:100%;
+}
+img{width:100%;}
+a,
+a:hover{
+color:#000;
+text-decoration:none;
+cursor:pointer;
+}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+/* CONTEÚDO */
+.container{
+    width: 1136px;
+    margin: 0 auto;
+}
+.destaque{
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+    align-items: center;
+}
+.destaque figure{width: 352px;}
+.destaque article{
+    width: 784px;
+    padding: 0 48px;
+}
+.destaque h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #000;
+    margin-bottom: 16px;    
+}
+.destaque p {
+    width: 555px;
+    margin-bottom: 20px;
+}
+.conheca{margin-bottom: 96px;}
+.conheca h3{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+    margin-bottom: 72px;
+}
+.conheca section{
+    display: flex;
+    padding: 0 40px;
+}
+.conheca article{
+    width: 256px;
+    margin: 0 48px;
+    text-align: center;
+    color: #000;
+}
+.conheca a{
+    color: #ff651a;
+    text-decoration: underline;
+}
+.conheca img{width: 170px;}
+.conheca h4,
+.conheca p:last-child{margin-top: 16px;}
+.produto-1{
+    background: #f4dcc3;
+    padding: 40px 0 80px;
+}
+.produto-1 section{
+    display: flex;
+    align-items: center;    
+}
+.produto-1 figure{
+    margin-right: 48px;
+    width: 528px;
+}
+.produto-1 article{width: 512px;}
+.produto-1 h2{
+    font-size: 40px;
+    line-height: 55px;
+    color: #000;
+    margin-bottom: 16px;
+}
+.produto-1 p{margin-bottom: 20px;}
